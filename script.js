@@ -10,6 +10,7 @@ const botonEncriptar = document.querySelector('.btn-encriptar');
 const botonDesencriptar = document.querySelector('.btn-desencriptar');
 
 botonEncriptar.addEventListener('click', btnEncriptar);
+botonDesencriptar.addEventListener('click', btnDesenciptar);
 
 function validarTexto() {
     let textoEscrito = textoUsuario.value;
@@ -26,10 +27,16 @@ function btnEncriptar() {
     if(!validarTexto()) {
         const textoEncriptado = encriptar(textoUsuario.value);
         textoFinal.innerHTML = textoEncriptado;
-        // textUsuario .value = "";
         mensaje.style.display = "none";
         resultado.style.display = "block";
     }
+}
+
+function btnDesenciptar() {
+    const textoEncriptado = desencriptar(textoUsuario.value);
+    textoFinal.innerHTML = textoEncriptado;
+    mensaje.style.display = "none";
+    resultado.style.display = "block";
 }
 
 //Laves de encriptacion
@@ -52,4 +59,18 @@ function encriptar(stringEncriptada){
 
     }
     return stringEncriptada;
+}
+
+function desencriptar(stringDesencriptada){
+    let matrizCodigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
+    stringDesencriptada = stringDesencriptada.toLowerCase()
+
+    for(let i = 0; i < matrizCodigo.length; i++){
+        if(stringDesencriptada.includes(matrizCodigo[i][1])){
+            stringDesencriptada = stringDesencriptada.replaceAll(matrizCodigo[i][1] , matrizCodigo[i][0])
+
+        }
+
+    }
+    return stringDesencriptada
 }
