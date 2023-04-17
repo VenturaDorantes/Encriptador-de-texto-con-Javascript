@@ -144,11 +144,12 @@ body {
     color: #8EE3EF;
     cursor: pointer;
     height: 67px;
-    width: 328px;
+    padding-left: 25%;
+    padding-right: 25%;
     font-size: 22px;
     bottom: 30px;
     position: absolute;
-    left: 20%;
+    left: 18%;
 }
 
 .resultado .respuesta .btn-copiar:hover {

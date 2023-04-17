@@ -44,6 +44,12 @@
         mensaje.style.display = "none";
         respuesta.style.display = "block";
     }
+
+    function btnCopiar(){
+        navigator.clipboard.writeText(textoFinal.innerHTML);
+        mensaje.value = "";
+        alert("Texto Copiado");
+    }
     
     // Llaves de encriptacion
     // `La letra "e" es convertida para "enter"`
@@ -80,11 +86,6 @@
         }
         return stringDesencriptada
     }
-    
-    function btnCopiar(){
-        navigator.clipboard.writeText(textoFinal.innerHTML);
-        mensaje.value = "";
-        alert("Texto Copiado");
-    }
+
 }());
 
