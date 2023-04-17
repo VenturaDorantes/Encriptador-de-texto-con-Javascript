@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+body {
+    background-color: #AEF3E7;
+}
+
+.contenido {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.ingresarDatos {
+    width: 70%;
+    height: 100%;
+}
+
+.ingresarDatos .logo {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 10%;
+}
+
+.ingresarDatos .ingresarTexto textarea {
+    height: 400px;
+    min-height: 400px;
+    max-height: 400px;
+    height: 100%;
+    min-width: 840px;
+    max-width: 840px;
+    background-color: #AEF3E7;
+    border: none;
+    color: #0A3871;
+    margin-top: 50px;
+    padding: 5px;
+    text-decoration: lowercase;
+}
+
+::placeholder { 
+    color: #0A3871; 
+}
+.ingresarDatos .ingresarTexto textarea:focus {
+    outline: none;
+}
+
+.ingresarDatos .seleccionBotones .botones {
+    display: flex;
+    margin-top: 18px;
+}
+
+.ingresarDatos .seleccionBotones .importante i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.ingresarDatos .seleccionBotones .importante {
+    color: #495057;
+    font-size: 18px;
+}
+
+.ingresarDatos .seleccionBotones .botones .btn-encriptar {
+    background-color: #C33C54;
+    border: 1px solid #C33C54;
+    border-radius: 24px;
+    color: #fff;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 22px;
+}
+
+.ingresarDatos .seleccionBotones .botones .btn-encriptar:hover {
+    background-color: transparent;
+    border: 1px solid #C33C54;
+    color: #C33C54;
+}
+
+.ingresarDatos .seleccionBotones .botones .btn-desencriptar {
+    background: #C33C54;
+    border: 1px solid #C33C54;
+    border-radius: 24px;
+    color: #fff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    font-size: 22px;
+}
+
+.ingresarDatos .seleccionBotones .botones .btn-desencriptar:hover {
+    background-color: transparent;
+    border: 1px solid #C33C54;
+    color: #C33C54;
+}
+
+.resultado {
+    width: 40%;
+    height: 620px;
+    background: #254E70;
+    border: none;
+    border-radius: 24px;
+    color: #AEF3E7;
+    margin: 20px 50px 10px;
+    padding: 50px;
+    position: relative;
+}
+
+.resultado .mensaje{
+    width: 100%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.resultado .mensaje img {
+    width: 70%;
+}
+
+.resultado .mensaje h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.resultado .mensaje p {
+    font-size: 18px;
+}
+
+.resultado .respuesta {
+    display: none;
+}
+
+.resultado .respuesta .respuestaTexto {
+    margin-top: 10px;
+    font-size: 22px; 
+}
+
+.resultado .respuesta .boton .btn-copiar {
+    border: 1px solid #8EE3EF;
+    background-color: transparent;
+    border-radius: 24px;
+    color: #8EE3EF;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    font-size: 22px;
+    bottom: 30px;
+    position: absolute;
+    left: 20%;
+}
+
+.resultado .respuesta .btn-copiar:hover {
+    border: 1px solid #8EE3EF;
+    background-color: #8EE3EF;
+    color: #254E70;
+}
