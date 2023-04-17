@@ -132,10 +132,6 @@ body {
     font-size: 18px;
 }
 
-.resultado .respuesta {
-    display: none;
-}
-
 .resultado .respuesta .respuestaTexto {
     margin-top: 10px;
     font-size: 22px; 

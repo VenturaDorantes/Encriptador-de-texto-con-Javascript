@@ -15,13 +15,13 @@
                     <img src="img/Logo.png" alt="">
                 </div>
                 <div class="ingresarTexto">
-                    <textarea name="" id="" placeholder="Ingresa el texto aquí"></textarea>
+                    <textarea name="" id="texto" placeholder="Ingresa el texto aquí"></textarea>
                 </div>
                 <div class="seleccionBotones">
                     <div class="importante"><i class="fas fa-exclamation-circle"></i>Solo letras minúsculas y sin acentos</div>
                     <div class="botones">
-                        <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
-                        <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                        <button class="btn-encriptar">Encriptar</button>
+                        <button class="btn-desencriptar">Desencriptar</button>
                     </div>
                 </div>
             </section>
@@ -32,16 +32,17 @@
                     <p>Ingresa el texto que desees encriptar o desencriptar</p>
                 </div>
                 <div class="respuesta">
-                    <div class="respuestaTexto">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ipsa distinctio! Ex mollitia cum, libero fugiat tempora excepturi laboriosam temporibus ea veritatis veniam officiis quos eius corporis vel saepe vero.
+                    <div class="respuestaTexto" id="textoFinal">
+                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, ipsa distinctio! Ex mollitia cum, libero fugiat tempora excepturi laboriosam temporibus ea veritatis veniam officiis quos eius corporis vel saepe vero. -->
                     </div>
                     <!-- <textarea class="mensaje" cols="20" rows="10"></textarea> -->
                     <div class="boton">
-                        <button class="btn-copiar" onclick="copiar()">Copiar</button>
+                        <button class="btn-copiar">Copiar</button>
                     </div>
                 </div>
             </section>
         </div>
         <script src="https://kit.fontawesome.com/9f10a64ba1.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
     </body>
 </html>
