@@ -5,10 +5,11 @@ const mensaje = document.querySelector('.mensaje');
 const resultado = document.querySelector('.respuesta');
 resultado.style.display = "none";
 
-const botonCopia = document.querySelector('.btn-copia');
+const botonCopiar = document.querySelector('.btn-copiar');
 const botonEncriptar = document.querySelector('.btn-encriptar');
 const botonDesencriptar = document.querySelector('.btn-desencriptar');
 
+botonCopiar.addEventListener('click', btnCopiar);
 botonEncriptar.addEventListener('click', btnEncriptar);
 botonDesencriptar.addEventListener('click', btnDesenciptar);
 
@@ -73,4 +74,10 @@ function desencriptar(stringDesencriptada){
 
     }
     return stringDesencriptada
+}
+
+function btnCopiar(){
+    navigator.clipboard.writeText(textoFinal.innerHTML);
+    mensaje.value = "";
+    alert("Texto Copiado");
 }
