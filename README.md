@@ -37,18 +37,18 @@ Por Ejemplo:
 
 ### 📱 Maquetado en Tablet
 
-<img src="img-readme/img-tablet.png" width="300" height="440"/>
-<img src="img-readme/img-tablet-encriptado.png" width="300" height="440"/>
+<img src="img-readme/img-tablet.png" width="50%" height="50%"/>
+<img src="img-readme/img-tablet-encriptado.png" width="50%" height="50%"/>
 
 ### 📱 Maquetado en Celular
 
 <img src="img-readme/img-celular.png" width="300" height="440"/>
-<img src="img-readme/img-celular-encriptado.png" width="300" height="440"/>
+<img src="img-readme/img-celular-encriptado.png" width="50%" height="50%"/>
 
 ## 👾 Resultado
 ---
 ### Resultado de diseño con respecto al maquetado
-<img src="img-readme/resultado-principal.png" width="500"/>
+<img src="img-readme/resultado-principal.png" width="100%"/>
 
 ### Al presionar los botones, y en caso de que el usuario no haya ingresado un texto, aparecerá la siguiente alerta
 <img src="img-readme/error-no-texto.png" width="500"/>
@@ -57,10 +57,10 @@ Por Ejemplo:
 <img src="img-readme/error-no-minusculas.png" width="500"/>
 
 ### Funcionamiento de desencriptar texto
-<img src="img-readme/desencriptar.png" width="500"/>
+<img src="img-readme/desencriptar.png" width="100%"/>
 
 ###  Funcionamiento de encriptar texto
-<img src="img-readme/encriptar.png" width="500"/>
+<img src="img-readme/encriptar.png" width="100%"/>
 
 ###  Funcionamiento de encriptar texto
 <img src="img-readme/encriptar.png" width="500"/>
