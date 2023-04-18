@@ -32,8 +32,8 @@ Por Ejemplo:
 ---
 ### 💻 Maquetado en Escritorio
 
-<img src="img-readme/img-escritorio.png" width="300"/>
-<img src="img-readme/img-escritorio-encriptado.png" width="300"/>
+<img src="img-readme/img-escritorio.png" width="450"/>
+<img src="img-readme/img-escritorio-encriptado.png" width="450"/>
 
 ### 📱 Maquetado en Tablet
 
@@ -42,7 +42,7 @@ Por Ejemplo:
 
 ### 📱 Maquetado en Celular
 
-<img src="img-readme/img-celular.png" width="300" height="440"/>
+<img src="img-readme/img-celular.png" width="50%" height="50%"/>
 <img src="img-readme/img-celular-encriptado.png" width="50%" height="50%"/>
 
 ## 👾 Resultado
@@ -63,7 +63,7 @@ Por Ejemplo:
 <img src="img-readme/encriptar.png" width="100%"/>
 
 ###  Funcionamiento de encriptar texto
-<img src="img-readme/encriptar.png" width="500"/>
+<img src="img-readme/encriptar.png" width="100%"/>
 
 ### Al momento de presionar el botón de copiar, aparecerá la siguiente alerta y se guarda el texto en el portapapeles
 <img src="img-readme/alert-copiar.png" width="500"/>
