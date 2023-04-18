@@ -21,6 +21,9 @@ body {
 .ingresarDatos {
     width: 70%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .ingresarDatos .logo {
@@ -33,9 +36,9 @@ body {
     height: 400px;
     min-height: 400px;
     max-height: 400px;
-    height: 100%;
-    min-width: 840px;
-    max-width: 840px;
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
     background-color: #AEF3E7;
     border: none;
     color: #0A3871;
@@ -53,6 +56,7 @@ body {
 
 .ingresarDatos .seleccionBotones .botones {
     display: flex;
+    justify-content: center;
     margin-top: 18px;
 }
 
@@ -133,8 +137,19 @@ body {
 }
 
 .resultado .respuesta .respuestaTexto {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    height: 450px;
+    max-height: 450px;
+    min-height: 450px;
     margin-top: 10px;
     font-size: 22px; 
+    color: #AEF3E7;
+    background: transparent;
+    border: none;
+    padding: 5px;
+    text-decoration: lowercase;
 }
 
 .resultado .respuesta .boton .btn-copiar {
@@ -156,4 +171,75 @@ body {
     border: 1px solid #8EE3EF;
     background-color: #8EE3EF;
     color: #254E70;
+}
+
+@media screen and (max-width: 1200px){
+    .contenido {
+        display: block;
+    }
+
+    .ingresarDatos {
+        width: 100%;
+    }
+
+    .ingresarDatos .ingresarTexto textarea {
+        height: 95%;
+        min-width: 95%;
+        max-width: 95%;
+    }
+
+    .resultado {
+        width: 95%;
+        height: 200px;
+        margin: 20px 50px 150px 0px;
+        padding: 30px;
+    }
+
+    .resultado .mensaje{
+        width: 100%;
+        height: 100px;
+        margin-top: 1%;
+        text-align: center;
+    }
+
+    .resultado .mensaje img {
+        display: none;
+    }
+
+    .resultado .respuesta .respuestaTexto {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        height: 200px;
+        max-height: 200px;
+        min-height: 200px;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .ingresarDatos .ingresarTexto textarea {
+        font-size: 20px;
+    }
+
+    .ingresarDatos .seleccionBotones .botones {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .resultado {
+        width: 95%;
+        height: 250px;
+        margin: 20px 50px 150px 0px;
+        padding: 30px;
+    }
+
+    .ingresarDatos .ingresarTexto textarea {
+        font-size: 20px;
+    }
+
+    .ingresarDatos .seleccionBotones .botones {
+        width: 95%;
+    }
 }

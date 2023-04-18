@@ -4,6 +4,7 @@
     const textoFinal = document.getElementById('textoFinal');
     const mensaje = document.querySelector('.mensaje');
     
+    const resultado = document.querySelector('.resultado');
     const respuesta = document.querySelector('.respuesta');
     respuesta.style.display = "none";
     
@@ -21,7 +22,12 @@
     function validarTexto() {
         let textoEscrito = textoUsuario.value;
         let validador = textoEscrito.match(/^[a-z]*$/);
-    
+        
+        if(textoEscrito == ""){
+            alert("Por favor, ingrese un texto");
+            return true;
+        }
+        
         if(!validador || validador === 0) {
             alert("Solo son permitidas letras minúsculas y sin acentos");
             location.reload();
@@ -35,17 +41,25 @@
             textoFinal.innerHTML = textoEncriptado;
             mensaje.style.display = "none";
             respuesta.style.display = "block";
+            if(screen.width <= 1200){
+                resultado.style.height = "350px";
+            }
         }
     }
     
     function btnDesenciptar() {
-        const textoEncriptado = desencriptar(textoUsuario.value);
-        textoFinal.innerHTML = textoEncriptado;
-        mensaje.style.display = "none";
-        respuesta.style.display = "block";
+        if(!validarTexto()) {
+            const textoEncriptado = desencriptar(textoUsuario.value);
+            textoFinal.innerHTML = textoEncriptado;
+            mensaje.style.display = "none";
+            respuesta.style.display = "block";
+            if(screen.width <= 1200){
+                resultado.style.height = "350px";
+            }
+        }
     }
 
-    function btnCopiar(){
+    function btnCopiar() {
         navigator.clipboard.writeText(textoFinal.innerHTML);
         mensaje.value = "";
         alert("Texto Copiado");
