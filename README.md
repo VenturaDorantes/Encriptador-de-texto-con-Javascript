@@ -32,52 +32,38 @@ Por Ejemplo:
 ---
 ### 💻 Maquetado en Escritorio
 
-<img src="img-readme/img-escritorio.png" width="450"/>
-<img src="img-readme/img-escritorio-encriptado.png" width="450"/>
+<img src="img-readme/img-escritorio.png" width="300"/>
+<img src="img-readme/img-escritorio-encriptado.png" width="300"/>
 
 ### 📱 Maquetado en Tablet
 
-<img src="img-readme/img-tablet.png" width="450"/>
-<img src="img-readme/img-tablet-encriptado.png" width="450"/>
+<img src="img-readme/img-tablet.png" width="300" height="440"/>
+<img src="img-readme/img-tablet-encriptado.png" width="300" height="440"/>
 
 ### 📱 Maquetado en Celular
 
-<img src="img-readme/img-celular.png" width="450"/>
-<img src="img-readme/img-celular-encriptado.png" width="450"/>
+<img src="img-readme/img-celular.png" width="300" height="440"/>
+<img src="img-readme/img-celular-encriptado.png" width="300" height="440"/>
 
 ## 👾 Resultado
 ---
 ### Resultado de diseño con respecto al maquetado
 <img src="img-readme/resultado-principal.png" width="500"/>
 
-<br>
-
 ### Al presionar los botones, y en caso de que el usuario no haya ingresado un texto, aparecerá la siguiente alerta
-
 <img src="img-readme/error-no-texto.png" width="500"/>
 
-<br>
-
 ### Y en caso de que el usuario ingrese un texto en no minúsculas o letras con acentos, aparecerá la siguiente alerta
-
 <img src="img-readme/error-no-minusculas.png" width="500"/>
-
-<br>
 
 ### Funcionamiento de desencriptar texto
 <img src="img-readme/desencriptar.png" width="500"/>
 
-<br>
-
 ###  Funcionamiento de encriptar texto
 <img src="img-readme/encriptar.png" width="500"/>
 
-<br>
-
 ###  Funcionamiento de encriptar texto
 <img src="img-readme/encriptar.png" width="500"/>
-
-<br>
 
 ### Al momento de presionar el botón de copiar, aparecerá la siguiente alerta y se guarda el texto en el portapapeles
 <img src="img-readme/alert-copiar.png" width="500"/>
