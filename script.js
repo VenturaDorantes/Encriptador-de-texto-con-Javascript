@@ -20,8 +20,8 @@
     
     // Funcion de validadion de Texto
     function validarTexto() {
-        let textoEscrito = textoUsuario.value;
-        let validador = textoEscrito.match(/^[a-z]*$/);
+        let textoEscrito = document.getElementById('texto').value;
+        let validador = textoEscrito.match(/^[a-z]+[\s\S]*$/);
         
         if(textoEscrito == ""){
             alert("Por favor, ingrese un texto");
