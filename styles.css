@@ -218,6 +218,10 @@ body {
 }
 
 @media screen and (max-width: 750px){
+    .contenido {
+        margin-left: 5%;
+    }
+
     .ingresarDatos .ingresarTexto textarea {
         font-size: 20px;
     }
@@ -228,6 +232,7 @@ body {
 }
 
 @media screen and (max-width: 500px){
+
     .resultado {
         width: 95%;
         height: 250px;
